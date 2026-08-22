@@ -117,12 +117,7 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
     mavenCentral()
-  flatDir { dir 'libs' } 
-  maven {
-    // location of the maven that hosts JEI files
-    name = "Progwml6 maven"
-    url = 'https://dvs1.progwml6.com/files/maven/'
-  }
+  flatDir { dir 'libs' }
   maven {
   	name = "curios"
     url = 'https://maven.theillusivec4.top/'
